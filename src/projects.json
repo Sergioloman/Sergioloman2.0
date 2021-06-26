@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "title":"Budget-Tracker",
+        "image":"../../assets/screenshots/budget-tracker.png",
+        "url":"https://sergiolomans-budget-tracker.herokuapp.com/",
+        "repo":"https://github.com/Sergioloman/Sergioloman.19"
+    },
+    {
+        "id": 2,
+        "title":"Go-Out-App",
+        "image":"../../assets/screenshots/Go-out-app.png",
+        "url":"https://sergioloman.github.io/Should-you-go-out/",
+        "repo":"https://github.com/Sergioloman/Should-you-go-out"
+    }
+]

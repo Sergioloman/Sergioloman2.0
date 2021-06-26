@@ -1,38 +1,361 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    background: var(--back-color);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+    --main-color:#df5639; 
+    --sec-color:#ffc4d0;
+    --back-color:black;
+    --lines-color:#ec5390;
+    --mid-color:#7f1a43;
+    --button-color:#ec0f51;
+    --click-glow:#8e59b9;
+    --main-font:Pathway Gothic One;
+}
+h1, h2, h3  {
+    font-family:var(--main-font);
+    color: var(--main-color);
+} 
+
+
+p , a , li { 
+    font-family: var(--main-font);
+    color: var(--sec-color);
+    list-style-type: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:link {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+/* header mods*/
+header {
+    background: var(--back-color);
+    background-image: //url//("https://media-exp1.licdn.com/dms/image/C4E16AQEkzvzGy2HtfQ/profile-displaybackgroundimage-shrink_350_1400/0/1611986227644?e=1617840000&v=beta&t=WMmNa8IRN1VyDzFV-CAIbawyLJR4GyERwG4jfzi8C-k");
+    background-position: center;
+    background-size: cover;
+    height:150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style: solid; 
+    border-color: var(--lines-color);
+    border-width: 0px 0px 8px 0px;
 }
 
-.App-link {
-  color: #61dafb;
+header h1 {
+    font-size: 90px;
+    padding-bottom: 5px;
+}
+span a { 
+    font-style: italic;
+    text-decoration:none;
+    
+}
+/*dont change this*/
+header h2 {
+    font-size:30px;
+    color: var(--sec-color);
+/* */    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#title {
+    margin-left: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
+
+header nav {
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right:30px;
+}
+
+header  nav ul  {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+ 
+header nav ul li {    
+    font-size: 40px;
+    padding-left:40px
+
+
+}
+/*header ends*/
+
+
+/*hero edits*/
+.hero {
+    margin: 30px 0 0 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero img {
+    height: 45vh;
+    border:8px solid var(--main-color);
+    border-radius: 50%;
+    margin: 30px;
+}
+
+
+/*main body mods*/
+main { 
+    margin:0 30px 0 30px;
+}   
+
+/*font adjustments*/
+li{
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.hero h2, h3 {
+    font-size: 45px;
+}
+
+/*end font adjustments*/
+
+
+section {
+    padding: 15px 0 15px 0;
+    display:flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin:30px 0;
+    padding:20px 0;
+}
+
+aside ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+    margin: 20px 0 20px 0;
+}
+
+aside ul li .text-link {
+    width: 200px;
+    height: 40px;
+    border-bottom: 8px solid var(--button-color);
+    padding:10px 0 5px 0;
+
+}
+
+/*here is where we flex all the items in the li*/
+aside ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*
+#portfolio-main {
+    height:175px;
+}*/
+.screenshot {
+    height: 150px;
+    width: 200px;
+    object-fit: contain;
+    margin-top: 45px;
+    border: 6px solid var(--main-color);
+    
+}
+
+
+
+.icon-image img {
+    height: 100px;
+    object-fit: contain;
+}
+
+    
+/*main body ends*/
+
+/*footer edits*/
+
+footer {
+    border-style: solid; 
+    border-color: var(--lines-color);
+    border-width: 8px 0px 0px 0px;
+    background: var(--back-color);
+    margin:70px 0 30px 0;
+
+}
+
+footer div {
+    font-size: 30px;
+    text-align: center;
+    margin:10px 30px 10px 30px;
+}    
+ 
+
+
+
+/*adding resonsive areas , making icons larger, and glow */
+
+
+img {
+    transition: transform .4s;
+}
+
+aside img:hover {
+    transform: scale(1.3); 
+}
+
+.hero img:hover {
+    transform:scale(1.1);
+}
+
+li a:hover {
+    text-shadow: 0 0 30px var(--click-glow);
+    color: var(--click-glow);
+    font-size: +105%;
+}
+
+span a:hover{
+    text-shadow: 0 0 40px var(--click-glow); 
+    color: var(--click-glow);
+    font-size: +105%;
+
+}
+
+h1:hover, h2:hover, h3:hover {
+    text-shadow: 0 0 35px var(--main-color); 
+}
+
+/*h3:hover {
+    font-size: +200%;
+}*/
+
+.hero img:hover {
+    box-shadow: 0 0 35px var(--main-color);
+       
+}
+
+.screenshot:hover {
+    box-shadow: 0 0 35px var(--main-color);
+    
+}
+
+/* MEDIA QUERY FOR MINIMIZED SCREENS */
+
+@media screen and (max-width: 1032px) {
+    Header {
+        height:100%
+    }
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 850px) {
+    header {
+        justify-content: center;
+        height: 100%;
+    }
+    header h2 {
+        text-align: center;
+    }
+    body{
+        justify-content: center;
+    }
+}
+    
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    header {
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+    header h2 {
+        text-align: center;
+    }
+    body{
+        justify-content: center;
+    }
+
+    aside ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    aside li {
+        margin-top:10px;
+        padding-top: 10px;
+    }
+        
+    article {
+        padding: 10px 0 10px 0;
+        margin: 10px 0 10px 0;    
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header h2 {
+        text-align: center;
+    }
+
+    aside ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    aside li {
+        margin-top:10px;
+        padding-top: 10px;
+    }
+    
+    article {
+        padding: 10px 0 10px 0;
+        margin: 10px 0 10px 0;
+    }
+    header {
+        justify-content: center;
+        position: relative;
+        height: 100%;
+    }
+    body{
+        justify-content: center;
+        
+    }
+
+   /*must adjust the distance in between the li elementts-**/
+   /*they are WAYYYY to close when the screen gets around 575*/
+}
+
+
+
+
+
+
+
+ 
+   
