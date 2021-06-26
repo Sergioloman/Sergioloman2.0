@@ -1,33 +1,36 @@
-// Import 'useState' Hook from React
 import React from 'react';
 
-function nav() {
+function NavTabs({ currentPage, handlePageChange}) {
+  
+  const tabs = [ 'About', 'Portfolio','Media', 'Contact'];
   return (
     <header> 
-        <div id="title">
-            <a href="/">
-                <h1>Sergio Torres</h1>
-            </a>
-            <h2>Web developer at <span><a href="https://youtu.be/tZyQRXxzsFI">Once upon...</a></span></h2>
-        </div>                  
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About">About</a>
-                </li>
-                <li>
-                    <a href="#Portfolio">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact">Media</a>
-                </li>
-                <li>
-                    <a href="#contact-info">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <div id="title">
+        <a href="/">
+            <h1>Sergio Torres</h1>
+        </a>
+        <h2>Web developer at <span><a href="https://youtu.be/tZyQRXxzsFI">Once upon...</a></span></h2>
+    </div>
+    <nav>
+
+    <ul>
+      {tabs.map(tab => (
+        <li key={tab}>
+          <a
+            href={'#' + tab.toLowerCase()}
+            onClick={() => handlePageChange(tab)}
+            className={
+              currentPage === tab ? 'nav-link active' : 'nav-link'
+            }
+          >
+            {tab}
+          </a>
+        </li>
+      ))}
+    </ul>
+    </nav>
     </header>
   );
 }
 
-export default nav;
+export default NavTabs;

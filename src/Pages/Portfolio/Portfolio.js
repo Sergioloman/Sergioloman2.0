@@ -6,22 +6,22 @@ import ProjectCard from '../../components/ProjectCards'
 function Portfolio(){
     return (
         <section>
-        <article  class="portfolio-article" id="Portfolio">
+        <article  className="portfolio-article" id="Portfolio">
             <div>
                 <h3>Portfolio</h3>
             </div>
         </article>
-        <aside class="article side">
+        <aside className="article side">
             <ul>{
             ProjectData.map(project=>{
-                console.log(project)
-                return <li><ProjectCard 
-                                id={project.id}
+            
+                return <ProjectCard 
+                                key={project.id}
                                 title= {project.title}
                                 image= {project.image}
                                 url= {project.url}
                                 repo={project.repo}
-                            ></ProjectCard></li>
+                            ></ProjectCard>
             })
             }
             </ul>
