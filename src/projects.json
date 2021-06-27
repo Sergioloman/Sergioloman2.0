@@ -12,5 +12,19 @@
         "image":"../../assets/screenshots/Go-out-app.png",
         "url":"https://sergioloman.github.io/Should-you-go-out/",
         "repo":"https://github.com/Sergioloman/Should-you-go-out"
+    },   
+    {
+        "id": 3,
+        "title":"Note-Taker",
+        "image":"../../assets/screenshots/note-taker.png",
+        "url":"https://note-taker-by-sergio.herokuapp.com/",
+        "repo":"https://github.com/Sergioloman/Sergioloman.11"
+    },
+    {
+        "id": 4,
+        "title":"Karp! e-Diem",
+        "image":"../../assets/screenshots/karpediem.png",
+        "url":"https://karp-ediem.herokuapp.com/",
+        "repo":"https://github.com/Sergioloman/FullStack.Team3"
     }
 ]

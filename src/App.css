@@ -35,7 +35,6 @@ a:link {
 /* header mods*/
 header {
     background: var(--back-color);
-    background-image: //url//("https://media-exp1.licdn.com/dms/image/C4E16AQEkzvzGy2HtfQ/profile-displaybackgroundimage-shrink_350_1400/0/1611986227644?e=1617840000&v=beta&t=WMmNa8IRN1VyDzFV-CAIbawyLJR4GyERwG4jfzi8C-k");
     background-position: center;
     background-size: cover;
     height:150px;
@@ -209,7 +208,11 @@ footer div {
     margin:10px 30px 10px 30px;
 }    
  
-
+.icon-link{
+    width:70px;
+    border-radius: 50%;
+    
+}
 
 
 /*adding resonsive areas , making icons larger, and glow */
@@ -238,6 +241,11 @@ span a:hover{
     color: var(--click-glow);
     font-size: +105%;
 
+}
+
+.icon-link:hover{
+    box-shadow: 0 0 35px var(--main-color);
+    
 }
 
 h1:hover, h2:hover, h3:hover {
