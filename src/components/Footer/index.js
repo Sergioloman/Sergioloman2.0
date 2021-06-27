@@ -5,6 +5,7 @@ function footer(){
     return(
         <footer>
             <div>
+                <br/>
                 <h2 id="contact-info">
                     Find me online
                 </h2>

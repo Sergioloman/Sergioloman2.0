@@ -258,6 +258,12 @@ span a:hover{
     box-shadow: 0 0 35px var(--main-color);
     
 }
+.footer-icon:hover{
+    
+    transform:scale(1.4);
+    
+}
+
 
 
 h1:hover, h2:hover, h3:hover {
