@@ -6,11 +6,14 @@ function footer(){
         <footer>
             <div>
                 <h2 id="contact-info">
-                    Contact me
+                    Find me online
                 </h2>
+                <br/>
+                <p>Choose your favorite path:</p>
+                <br/> 
             </div>
             <div>
-                <ul>{
+                <ul className="footerBar">{
                     FooterData.map(footer=>{
                         
                         return <li>

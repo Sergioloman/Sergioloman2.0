@@ -217,6 +217,14 @@ footer div {
     width:90px;    
 }
 
+.footerBar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
 
 /*adding resonsive areas , making icons larger, and glow */
 
