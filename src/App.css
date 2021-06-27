@@ -213,6 +213,9 @@ footer div {
     border-radius: 50%;
     
 }
+.footer-icon{
+    width:90px;    
+}
 
 
 /*adding resonsive areas , making icons larger, and glow */
@@ -247,6 +250,7 @@ span a:hover{
     box-shadow: 0 0 35px var(--main-color);
     
 }
+
 
 h1:hover, h2:hover, h3:hover {
     text-shadow: 0 0 35px var(--main-color); 

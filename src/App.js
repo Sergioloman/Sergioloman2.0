@@ -3,6 +3,7 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import About from "./Pages/About/About.js";
 import Portfolio from "./Pages/Portfolio/Portfolio";
+import Footer from "./components/Footer"
 
 // we need to render each one of these conditionally on click
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <div>
         {renderPage(currentPage)}
       </div>
+      <Footer />
     </div>
   );
 }
