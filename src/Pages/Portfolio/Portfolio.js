@@ -1,6 +1,6 @@
 //render each card for each project// use map
 import React from 'react'
-import ProjectData from '../../projects.json'
+import ProjectData from '../../db/projects.js'
 import ProjectCard from '../../components/ProjectCards'
 
 function Portfolio(){

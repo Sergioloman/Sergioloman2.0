@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterData from '../../footers.json'
+import FooterData from '../../db/footers.js'
 
 
 function footer(){

@@ -1,6 +1,7 @@
 //here we create a component for each one of our projects
 import React from 'react';
 
+
 function ProjectCard({url, title, image, repo}){
    
     return(
@@ -9,7 +10,7 @@ function ProjectCard({url, title, image, repo}){
             <img className="screenshot" src={image} alt={title}></img>
             <br/>
             <a target="_blank" rel="noreferrer" className="repo-link" href={repo}>
-            <img className="icon-link" src="/assets/icons/gitHub.png" alt="github-link"></img>     
+            <img className="icon-link" src={require('../../assets/Icons/github.png').default} alt="github-link"></img>     
             </a>
         </li>
     )
