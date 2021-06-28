@@ -1,5 +1,7 @@
 import React from 'react';
 import FooterData from '../../footers.json'
+
+
 function footer(){
 //we can map trough each one of the icons and items in the footer....
     return(
@@ -17,7 +19,7 @@ function footer(){
                 <ul className="footerBar">{
                     FooterData.map(footer=>{
                         
-                        return <li>
+                        return <li key={footer.id}>
                                     <a target="_blank" rel="noreferrer" className="text-link" href={footer.url}>
                                     <img className="footer-icon" src={footer.image} alt={footer.alt}></img>
                                     </a>

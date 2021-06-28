@@ -1,27 +1,16 @@
 [
     {
         "id":1,
-        "image":"/assets/icons/ig2.png",
+        "image":"data:image/jpeg;base64,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",
         "url":"https://www.instagram.com/sergiohness/",
         "alt":"instagram"
-    },
+    }
+    ,
     {
         "id":2,
-        "image":"/assets/icons/gi3.png",
+        "image":"https://cdn.icon-icons.com/icons2/2406/PNG/512/github_git_icon_145985.png",
         "url":"https://github.com/Sergioloman",
         "alt":"github"
-    },
-    {
-        "id":3,
-        "image":"/assets/icons/g6.png",
-        "url":"mailto:sergio.lo.torres@gmail.com",
-        "alt":"gmail"
-    },
-    {
-        "id":4,
-        "image":"/assets/icons/li3.png",
-        "url":"https://www.linkedin.com/in/sergio-torres-peralta/",
-        "alt":"linkedin"
     }
 
 ]
