@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Sergioloman2.0/static/css/main.06adeceb.chunk.css",
+    "main.js": "/Sergioloman2.0/static/js/main.fa849f23.chunk.js",
+    "main.js.map": "/Sergioloman2.0/static/js/main.fa849f23.chunk.js.map",
+    "runtime-main.js": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js",
+    "runtime-main.js.map": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js.map",
+    "static/js/2.37b8c706.chunk.js": "/Sergioloman2.0/static/js/2.37b8c706.chunk.js",
+    "static/js/2.37b8c706.chunk.js.map": "/Sergioloman2.0/static/js/2.37b8c706.chunk.js.map",
+    "index.html": "/Sergioloman2.0/index.html",
+    "static/css/main.06adeceb.chunk.css.map": "/Sergioloman2.0/static/css/main.06adeceb.chunk.css.map",
+    "static/js/2.37b8c706.chunk.js.LICENSE.txt": "/Sergioloman2.0/static/js/2.37b8c706.chunk.js.LICENSE.txt",
+    "static/media/FullSizeR1.4860471e.jpg": "/Sergioloman2.0/static/media/FullSizeR1.4860471e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1f5820b9.js",
+    "static/js/2.37b8c706.chunk.js",
+    "static/css/main.06adeceb.chunk.css",
+    "static/js/main.fa849f23.chunk.js"
+  ]
+}
