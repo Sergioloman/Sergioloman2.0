@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange}) {
   
-  const tabs = [ 'About', 'Portfolio','Resume'];
+  const tabs = [ 'About', 'Portfolio'];
   return (
     <header> 
     <div id="title">
