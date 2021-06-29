@@ -3,7 +3,8 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 import About from "./Pages/About/About.js";
 import Portfolio from "./Pages/Portfolio/Portfolio";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+import Resume from "./Pages/Resume/Resume"
 
 // we need to render each one of these conditionally on click
 function App() {
@@ -16,6 +17,8 @@ function App() {
         return <About />;
       case "Portfolio":
         return <Portfolio />;
+      case "Resume":
+        return <Resume/>;
       default:
         return <About />;
     }

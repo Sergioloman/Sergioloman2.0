@@ -1,17 +1,12 @@
 import React from 'react';
+import Header from '../Header'
 
 function NavTabs({ currentPage, handlePageChange}) {
   
   const tabs = [ 'About', 'Portfolio','Resume','Contact'];
   return (
     <header> 
-    <div id="title">
-        <a href="/">
-            <h1>Sergio Torres</h1>
-        </a>
-        <h2>Web developer at <span><a href="https://youtu.be/tZyQRXxzsFI">Once upon...</a></span></h2>
-    </div>
-    
+      <Header/>
     <nav>
     <ul>
       {tabs.map(tab => (
