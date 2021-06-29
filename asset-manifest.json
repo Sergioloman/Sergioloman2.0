@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sergioloman2.0/static/css/main.06adeceb.chunk.css",
-    "main.js": "/Sergioloman2.0/static/js/main.0229f62b.chunk.js",
-    "main.js.map": "/Sergioloman2.0/static/js/main.0229f62b.chunk.js.map",
+    "main.js": "/Sergioloman2.0/static/js/main.97fe653c.chunk.js",
+    "main.js.map": "/Sergioloman2.0/static/js/main.97fe653c.chunk.js.map",
     "runtime-main.js": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js",
     "runtime-main.js.map": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js.map",
     "static/js/2.51862e82.chunk.js": "/Sergioloman2.0/static/js/2.51862e82.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.1f5820b9.js",
     "static/js/2.51862e82.chunk.js",
     "static/css/main.06adeceb.chunk.css",
-    "static/js/main.0229f62b.chunk.js"
+    "static/js/main.97fe653c.chunk.js"
   ]
 }
