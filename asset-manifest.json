@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sergioloman2.0/static/css/main.7c8cb44e.chunk.css",
-    "main.js": "/Sergioloman2.0/static/js/main.5bdd76bb.chunk.js",
-    "main.js.map": "/Sergioloman2.0/static/js/main.5bdd76bb.chunk.js.map",
+    "main.js": "/Sergioloman2.0/static/js/main.0a770891.chunk.js",
+    "main.js.map": "/Sergioloman2.0/static/js/main.0a770891.chunk.js.map",
     "runtime-main.js": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js",
     "runtime-main.js.map": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js.map",
     "static/js/2.a8ef4d56.chunk.js": "/Sergioloman2.0/static/js/2.a8ef4d56.chunk.js",
@@ -15,13 +15,15 @@
     "static/media/ResumeScreenshot.9aff4188.PNG": "/Sergioloman2.0/static/media/ResumeScreenshot.9aff4188.PNG",
     "static/media/budget-tracker.png": "/Sergioloman2.0/static/media/budget-tracker.69ac76de.png",
     "static/media/ig2.png": "/Sergioloman2.0/static/media/ig2.f5ef3733.png",
+    "static/media/jsquiz.png": "/Sergioloman2.0/static/media/jsquiz.2966fa6c.png",
     "static/media/karpediem.PNG": "/Sergioloman2.0/static/media/karpediem.798a9582.PNG",
-    "static/media/note-taker.PNG": "/Sergioloman2.0/static/media/note-taker.67bc9692.PNG"
+    "static/media/note-taker.PNG": "/Sergioloman2.0/static/media/note-taker.67bc9692.PNG",
+    "static/media/weatherdash.png": "/Sergioloman2.0/static/media/weatherdash.c11004a2.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1f5820b9.js",
     "static/js/2.a8ef4d56.chunk.js",
     "static/css/main.7c8cb44e.chunk.css",
-    "static/js/main.5bdd76bb.chunk.js"
+    "static/js/main.0a770891.chunk.js"
   ]
 }
