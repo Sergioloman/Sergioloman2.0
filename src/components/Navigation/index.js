@@ -2,7 +2,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange}) {
   
-  const tabs = [ 'About', 'Portfolio'];
+  const tabs = [ 'About', 'Portfolio','Resume','Contact'];
   return (
     <header> 
     <div id="title">
@@ -11,8 +11,8 @@ function NavTabs({ currentPage, handlePageChange}) {
         </a>
         <h2>Web developer at <span><a href="https://youtu.be/tZyQRXxzsFI">Once upon...</a></span></h2>
     </div>
+    
     <nav>
-
     <ul>
       {tabs.map(tab => (
         <li key={tab}>
