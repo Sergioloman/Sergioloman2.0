@@ -1,0 +1,68 @@
+
+form {
+  width: 40%;
+}
+.contact {
+    margin: 30px 0 0 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+/* */
+button {
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    border:2px solid var(--main-color);
+    margin: 30px;
+    outline: none;
+    cursor: pointer;
+    margin: 0 1px;
+}
+  
+textarea {
+    font-size: 1.5rem;
+    width: 600px;
+    height: 120px;
+    border-radius: 3px;
+    border:2px solid var(--main-color);
+    padding: 5px;
+  }
+  
+input {
+ 
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    
+}
+  
+input:hover {
+    border: 0.5px solid var(--lines-color);
+ 
+}
+  
+button:hover{
+    text-shadow: 0 0 40px var(--click-glow); 
+    color: var(--click-glow);
+    font-size: +102%;
+
+}
+
+label:hover{
+    text-shadow: 0 0 40px var(--click-glow); 
+    color: var(--click-glow);
+    font-size: +102%;
+
+}
+.error-text{
+    font-size: 1rem;
+    padding: 0.25rem;
+}

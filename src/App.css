@@ -20,7 +20,7 @@ h1, h2, h3  {
 } 
 
 
-p , a , li { 
+p , a , li, input, textarea, button, label { 
     font-family: var(--main-font);
     color: var(--sec-color);
     list-style-type: none;

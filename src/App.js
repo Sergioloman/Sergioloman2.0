@@ -5,6 +5,7 @@ import About from "./Pages/About/About.js";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Footer from "./components/Footer";
 import Resume from "./Pages/Resume/Resume"
+import Contact from "./Pages/Contact/Contact.js"
 
 // we need to render each one of these conditionally on click
 function App() {
@@ -18,7 +19,9 @@ function App() {
       case "Portfolio":
         return <Portfolio />;
       case "Resume":
-        return <Resume/>;
+        return <Resume />;
+      case "Contact":
+        return <Contact />;
       default:
         return <About />;
     }
@@ -36,4 +39,4 @@ function App() {
 }
 
 export default App;
-///////////////
+
