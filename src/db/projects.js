@@ -27,6 +27,20 @@ const  ProjectData = [
         "image":require("../../src/assets/screenshots/karpediem.PNG").default,
         "url":"https://karp-ediem.herokuapp.com/",
         "repo":"https://github.com/Sergioloman/FullStack.Team3"
+    },
+    {
+        "id": 5,
+        "title":"Javascript Quiz",
+        "image":require("../../src/assets/screenshots/jsquiz.png").default,
+        "url":"https://sergioloman.github.io/Sergioloman04.github.io/",
+        "repo":"https://github.com/Sergioloman/Sergioloman04.github.io"
+    },
+    {
+        "id": 6,
+        "title":"Weather Dashboard",
+        "image":require("../../src/assets/screenshots/weatherdash.png").default,
+        "url":"https://sergioloman.github.io/Sergioloman06.github.io/",
+        "repo":"https://github.com/Sergioloman/Sergioloman06.github.io"
     }
 ]
 
