@@ -6,7 +6,7 @@ function resume(){
     return(
         <section className='resume'>
             <h3>Download</h3>
-            <a className="text-link" href="../../assets/Resume/Sergio Torres - _Resume_.pdf" download>
+            <a className="text-link" href="../../assets/Resume/Sergio_Torres_Resume_2.5.pdf" target="_blank" download>
             <img className="resume-shot" src={CV} alt='resume screenshot'></img>
             </a>
             <br/>

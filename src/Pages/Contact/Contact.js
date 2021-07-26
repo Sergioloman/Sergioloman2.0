@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import './contact.css'
+//consider using https://www.npmjs.com/package/nodemailer
 
 function Contact(){
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -50,7 +51,8 @@ function Contact(){
             <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
           </div>
           <div >
-            <label  htmlFor="message">Message</label>
+            <label  htmlFor="message">Message :</label>
+            <br/>
             <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
           </div>
           {errorMessage && (
