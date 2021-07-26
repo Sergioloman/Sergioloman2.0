@@ -1,6 +1,13 @@
 
 const  ProjectData = [
     {
+        "id": 0,
+        "title":"Lets-Brew",
+        "image":require("../../src/assets/screenshots/Lets-Brew.png").default,
+        "url":"https://lets-brew-group12.herokuapp.com/",
+        "repo":"https://github.com/MLemke24/Lets-Brew"
+    },
+    {
         "id": 1,
         "title":"Budget-Tracker",
         "image":require("../../src/assets/screenshots/budget-tracker.png").default,
