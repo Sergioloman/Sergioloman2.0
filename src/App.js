@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Resume from "./Pages/Resume/Resume"
 import Contact from "./Pages/Contact/Contact.js"
 
+
 // we need to render each one of these conditionally on click
 function App() {
   const [currentPage, handlePageChange] = useState("About");
