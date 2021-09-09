@@ -3,7 +3,7 @@ import Header from '../Header'
 
 function NavTabs({ currentPage, handlePageChange}) {
   
-  const tabs = [ 'About', 'Portfolio','Resume','Contact'];
+  const tabs = [ 'About', 'Resume','Portfolio'];
   return (
     <header> 
       <Header/>

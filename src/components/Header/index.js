@@ -6,7 +6,7 @@ function Header(){
         <a href="/">
             <h1>Sergio Torres</h1>
         </a>
-        <h2>Web developer at <span><a href="https://youtu.be/tZyQRXxzsFI">Once upon...</a></span></h2>
+        <h2>Full Stack Web Developer for hire <span></span></h2>
     </div>
     )
 }

@@ -29,13 +29,6 @@ const  ProjectData = [
         "repo":"https://github.com/Sergioloman/Sergioloman.11"
     },
     {
-        "id": 5,
-        "title":"Karp! e-Diem",
-        "image":require("../../src/assets/screenshots/karpediem.PNG").default,
-        "url":"https://karp-ediem.herokuapp.com/",
-        "repo":"https://github.com/Sergioloman/FullStack.Team3"
-    },
-    {
         "id": 6,
         "title":"Javascript Quiz",
         "image":require("../../src/assets/screenshots/jsquiz.png").default,
