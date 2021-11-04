@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Sergioloman2.0/static/css/main.288b51db.chunk.css",
-    "main.js": "/Sergioloman2.0/static/js/main.8b500ca2.chunk.js",
-    "main.js.map": "/Sergioloman2.0/static/js/main.8b500ca2.chunk.js.map",
+    "main.js": "/Sergioloman2.0/static/js/main.b2650dc3.chunk.js",
+    "main.js.map": "/Sergioloman2.0/static/js/main.b2650dc3.chunk.js.map",
     "runtime-main.js": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js",
     "runtime-main.js.map": "/Sergioloman2.0/static/js/runtime-main.1f5820b9.js.map",
     "static/js/2.a8ef4d56.chunk.js": "/Sergioloman2.0/static/js/2.a8ef4d56.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/FullSizeR1.4860471e.jpg": "/Sergioloman2.0/static/media/FullSizeR1.4860471e.jpg",
     "static/media/Go-out-app.png": "/Sergioloman2.0/static/media/Go-out-app.b567b8d3.png",
     "static/media/Lets-Brew.png": "/Sergioloman2.0/static/media/Lets-Brew.366cf10f.png",
-    "static/media/ResumeScreenshot.9aff4188.PNG": "/Sergioloman2.0/static/media/ResumeScreenshot.9aff4188.PNG",
+    "static/media/Screenshot.e05360fa.PNG": "/Sergioloman2.0/static/media/Screenshot.e05360fa.PNG",
     "static/media/budget-tracker.png": "/Sergioloman2.0/static/media/budget-tracker.69ac76de.png",
     "static/media/ig2.png": "/Sergioloman2.0/static/media/ig2.f5ef3733.png",
     "static/media/jsquiz.png": "/Sergioloman2.0/static/media/jsquiz.2966fa6c.png",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.1f5820b9.js",
     "static/js/2.a8ef4d56.chunk.js",
     "static/css/main.288b51db.chunk.css",
-    "static/js/main.8b500ca2.chunk.js"
+    "static/js/main.b2650dc3.chunk.js"
   ]
 }
