@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/Resume/ResumeScreenshot.PNG';
+import CV from '../../assets/Resume/Screenshot.PNG';
 import './resume.css'
 import skills from '../../db/skills';
 
@@ -11,7 +11,7 @@ function resume(){
             <p>{skills.join(`    ||    `)}</p>
             <br/>    
             <h3>Download me!</h3>
-            <a className="text-link" href="../../assets/Resume/Sergio_Torres_Resume_2.5.pdf" target="_blank" download>
+            <a className="text-link" href="../../assets/Resume/Sergio_Torres_Resume.pdf" target="_blank" download>
             <img className="resume-shot" src={CV} alt='resume screenshot'></img>
             </a>
             <br/>
